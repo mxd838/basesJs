@@ -17,7 +17,7 @@ const tableauComplexe = [[1, 2, 3], {nom: 'Michel', prenom: 'Gerard'}, 3.98]
 - À chaque valeur du tableau est associée un indice (ou *index*) qui permet l'accès à cette valeur
 - L'index démarre à zéro. Ainsi :
 ```javascript
-stringAndNumbersArray = [128, 'cheval', 3.49, 'lampadaire', 38, 'robert']
+stringAndNumbersArray = [128, 'cheval', 3.49, true, 'lampadaire', 38, 'robert', false]
 ```
 > index 0: 128
 > index 1 : 'cheval'
@@ -46,3 +46,7 @@ while (i < monTableau.length){
     console.log(monTableau[i])
     i++
 }
+```
+> Attention à bien utiliser  < et non <= 
+> Cela renverrait une erreur puisque la longueur d'un tableau est toujours supérieure de 1 à l'indice de sa dernière valeur
+###
