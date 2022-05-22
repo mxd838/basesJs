@@ -53,7 +53,8 @@ while (i < autreTableau.length){
 ```
 > Attention à bien utiliser  < et non <= 
 > Cela renverrait une erreur puisque la longueur d'un tableau est toujours supérieure de 1 à l'indice de sa dernière valeur
-> De ce fait, si i a
+> Dans l'exemple, le tableau possède 4 éléments, indexés de 0 à 3
+> Si i arrive à 4, Javascript tente de trouver une valeur indexée à 4 donc en dehors du tableau (spoiler: ça va pas marcher)
 
 
 **Exercice 1**
