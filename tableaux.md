@@ -45,15 +45,18 @@ console.log(tableauComplexe.length) // 3
 - L'utilisation des indices et de la propriété length permet de parcourir simplement un tableau
 ```javascript
 let i = 0 
-while (i < monTableau.length){
+while (i < autreTableau.length){
     // à chaque passage de boucle est affichée une valeur du tableau
-    console.log(monTableau[i])
+    console.log(autreTableau[i])
     i++
 }
 ```
 > Attention à bien utiliser  < et non <= 
 > Cela renverrait une erreur puisque la longueur d'un tableau est toujours supérieure de 1 à l'indice de sa dernière valeur
-#### Exercice 1
+> De ce fait, si i a
+
+
+**Exercice 1**
 - Étant donné le tableau suivant :
 ```javascript
 const nvTableau = [13, 454, 3.38, 4803, 1504, 54, 3.45, 13345.599]
@@ -61,4 +64,4 @@ const nvTableau = [13, 454, 3.38, 4803, 1504, 54, 3.45, 13345.599]
 - Utilise une boucle pour calculer la somme des valeurs
 ### Méthodes de tableau
 - JavaScript offre  des méthodes (càd des fonctions intégrées à un type complexe, ici les tableaux) qui permettent de les manipuler
-- 
+#### Ajouter un élément à la fin du tableau : .push()
