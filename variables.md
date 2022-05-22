@@ -48,6 +48,8 @@ console.log(a)
 ## Valeurs
 ### Nombres
 ### Chaînes de caractères (*string*)
+### Booléens (*true* ou *false*)
+#### Conditions
 ### Expressions
 ### Autres valeurs possibles
 
