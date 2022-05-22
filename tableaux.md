@@ -30,6 +30,10 @@ stringAndNumbersArray = [128, 'cheval', 3.49, true, 'lampadaire', 38, 'robert', 
 console.log(stringAndNumbersArray[0]) // affiche 128
 console.log(stringAndNumbersArray[4]) // affiche 38
 ```
+- Pour enregistrer une valeur d'un tableau dans une variable
+```javascript
+const charmantPrenom = stringAndNumbersArray[6]
+```
 ### Propriété *.length*
 - Un tableau intègre une propriété .length qui permet d'obtenir sa longueur
 ```javascript
@@ -49,4 +53,12 @@ while (i < monTableau.length){
 ```
 > Attention à bien utiliser  < et non <= 
 > Cela renverrait une erreur puisque la longueur d'un tableau est toujours supérieure de 1 à l'indice de sa dernière valeur
-###
+#### Exercice 1
+- Étant donné le tableau suivant :
+```javascript
+const nvTableau = [13, 454, 3.38, 4803, 1504, 54, 3.45, 13345.599]
+```
+- Utilise une boucle pour calculer la somme des valeurs
+### Méthodes de tableau
+- JavaScript offre  des méthodes (càd des fonctions intégrées à un type complexe, ici les tableaux) qui permettent de les manipuler
+- 

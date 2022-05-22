@@ -50,6 +50,8 @@ console.log(a)
 ### Chaînes de caractères (*string*)
 ### Booléens (*true* ou *false*)
 #### Conditions
+- Une condition est une expression qui renvoie un booléen, c'est-à-dire vrai (*true*) ou faux (*false*)
+- Les conditions sont utilisées dans les boucles et les structures de contrôle de flux pour déterminer si le bloc d'instructions qui suit s'exécute (si la condition renvoie *true*) ou non (si la condition renvoie *false*)
 ### Expressions
 ### Autres valeurs possibles
 
