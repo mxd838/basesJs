@@ -7,3 +7,5 @@ while (i < nvTableau.length){
     i++
 }
 console.log(sum)
+
+
