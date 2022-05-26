@@ -13,9 +13,9 @@ for (i = 0; i < 5; i++){
 > for : mot-clé déclaratif de la boucle\
 > i = 0 : initialisation de la variable i à 0 (donc sa valeur au premier passage de la boucle)\
 > i < 5 : condition d'arrêt de la boucle ; si i arrive à 5, le bloc d'instructions ne s'exécute pas\
-> i++ :
-    - la valeur d'incrémentation de la variable i (ici, i augmente de 1 à chaque passage de boucle, avant d'être de nouveau évalué)
-    - le changement de la valeur peut s'écrire de différentes façons (voir exemples du point suivant)
+> i++ :\
+    - la valeur d'incrémentation de la variable i (ici, i augmente de 1 à chaque passage de boucle, avant d'être de nouveau évalué)\
+    - le changement de la valeur peut s'écrire de différentes façons (voir exemples du point suivant)\
     - l'itérateur peut augmenter de 1 à chaque passage (i++, i = i +1, i += 1), diminuer de 1 (i-- ou i = i -1), augmenter de 2 (i = i +2, i += 2 ), être multiplié (i = i * 2), divisé, etc
 
 ## While
@@ -26,10 +26,10 @@ while (j < 38){
     j = j + 2 // incrémentation (ici, les valeurs successives de la variable seront 0, 2, 4, 6 ... jusqu'à 36)
 }
 ```
-> while : mot-clé déclaratif de la boucle
-> j < 38 : condition de passage dans la boucle
-> *Attention* : 
-    - la boucle *while* n'intègre pas l'incrémentation dans sa syntaxe, contrairement à la boucle *for*
+> while : mot-clé déclaratif de la boucle\
+> j < 38 : condition de passage dans la boucle\
+> *Attention* :\
+    - la boucle *while* n'intègre pas l'incrémentation dans sa syntaxe, contrairement à la boucle *for*\
     - si la variable évaluée dans la condition ne change pas (c'est-à-dire si l'évaluation de la condition renvoie toujous *true*), on entre dans une boucle infinie : JavaScript ne sortira jamais de la boucle
 
 ## Rappel sur les conditions
@@ -56,8 +56,8 @@ if ( 3 == '3'){
     console.log('What ?')
 }
 ```
-> Ici, la condition est évaluée à *true* alors qu'on compare un nombre à une chaîne de caractères : on aura bien le message dans la console.
-> -> JavaScript compare les valeurs sans se préoccuper de leurs types respectifs.
+> Ici, la condition est évaluée à *true* alors qu'on compare un nombre à une chaîne de caractères : on aura bien le message dans la console.\
+> -> JavaScript compare les valeurs sans se préoccuper de leurs types respectifs.\
 > -> Pour cette raison, on utilise les opérateurs d'égalité et d'inégalité stricts pour comparer simultanément la valeur et le type : respectivement === et !==
 ```javascript
 if (3 === '3'){
