@@ -45,6 +45,8 @@ a = 42
 console.log(a)
 ```
 > 42
+
+## Nommage des variables
 ## Valeurs
 ### Nombres
 ### Chaînes de caractères (*string*)

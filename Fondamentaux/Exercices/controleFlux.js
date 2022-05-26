@@ -17,3 +17,14 @@
 */
 
 // === Switch ===
+
+/*
+You are given a variable, . Your task is to print:
+
+- ONE, if num is equal to 1.
+- TWO, if num is equal to 2.
+- THREE, if num is equal to 3.
+- FOUR, if num is equal to 4.
+
+- PLEASE TRY AGAIN, if  is none of the above.
+*/
