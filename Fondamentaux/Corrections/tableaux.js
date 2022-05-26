@@ -9,3 +9,4 @@ while (i < nvTableau.length){
 console.log(sum)
 
 
+

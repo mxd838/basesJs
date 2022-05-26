@@ -36,6 +36,34 @@ if (condition){
 - L'ordre des conditions importe :
     - dans l'exemple du modèle,
 ## Opérateur ternaire
+### Modèle
+```javascript
+let reponse = 'choux de bruxelles'
+const decision = reponse === 'choux de bruxelles' ? 'Non, merci ça va aller' : 'Bon, on graille quoi du coup ?'
+```
+> 'reponse === 'choux de bruxelles' : condition évaluée
+> '?' : syntaxe indiquant la fin de l'évaluation de la condition
+> 'Non, merci ça va aller' : valeur renvoyée par l'opérateur ternaire si la condition est évaluée à true
+> ':' syntaxe séparant les deux possibilités de valeurs renvoyées par le ternaire
+> 'Bon, on graille quoi du coup ?' : valeur renvoyée par l'opérateur ternaire si la condition est évaluée à false
 ## Switch
+```javascript
+let nombreDAssiettes
+switch(nombreDAssiettes){
+    case 1:
+        console.log('Ô solitude, ma si fidèle compagne -snif-')
+        break
+    case 2:
+        console.log('Tiens, serais-je en couple ?')
+        break
+    case 3:
+        console.log("Ah, j'ai un gamin maintenant")
+        break
+    case 4:
+        console.log("Euh...ça commence à faire du monde")
+        break
+    default:
+        console.log("Ne venez pas manger ici, svp")
+}
 ## Les valeurs *truthy* et *falsy*
 ## Exercices
