@@ -42,12 +42,12 @@ while (j < 38){
     - soit à *false* -> la condition n'est pas respectée ; le bloc d'instructions qui suit n'est pas exécuté
 
 **Opérateurs de comparaison :**
-> a == b 
-> a < b
-> a > b
-> a <= b *(inférieur ou égal)*
-> a >= b
-> a != b *(différent de )*
+> a == b\
+> a < b\
+> a > b\
+> a <= b *(inférieur ou égal)*\
+> a >= b\
+> a != b *(différent de )*\
 
 
 **Opérateurs de comparaison stricts**
