@@ -10,10 +10,10 @@ for (i = 0; i < 5; i++){
     // bloc d'instructions
 }
 ```
-> for : mot-clé déclaratif de la boucle
-> i = 0 : initialisation de la variable i à 0 (donc sa valeur au premier passage de la boucle)
-> i < 5 : condition d'arrêt de la boucle ; si i arrive à 5, le bloc d'instructions ne s'exécute pas
-> i++ : 
+> for : mot-clé déclaratif de la boucle\
+> i = 0 : initialisation de la variable i à 0 (donc sa valeur au premier passage de la boucle)\
+> i < 5 : condition d'arrêt de la boucle ; si i arrive à 5, le bloc d'instructions ne s'exécute pas\
+> i++ :
     - la valeur d'incrémentation de la variable i (ici, i augmente de 1 à chaque passage de boucle, avant d'être de nouveau évalué)
     - le changement de la valeur peut s'écrire de différentes façons (voir exemples du point suivant)
     - l'itérateur peut augmenter de 1 à chaque passage (i++, i = i +1, i += 1), diminuer de 1 (i-- ou i = i -1), augmenter de 2 (i = i +2, i += 2 ), être multiplié (i = i * 2), divisé, etc
