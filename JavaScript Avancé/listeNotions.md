@@ -28,3 +28,8 @@ const decision = reponse === 'choux de bruxelles' ? 'Non, merci ça va aller' : 
 ## Callbacks
 ## Promesses
 ## Async / await
+
+
+## Cas particuliers
+### switch : des case sans break
+    - si le mot-clé est omis, on ne sort pas du switch et JavaScript va exécuter les ins

@@ -51,8 +51,20 @@ console.log(a)
 ### Les caractères et mots interdits
 ### Les conventions
 ## Valeurs
+### vérifier le type d'une variable
 ### Nombres
 ### Opérateurs mathématiques
+- opérateurs classiques : +, -, *, /
+- % :
+    - modulo
+    - renvoie le reste d'une division
+```javascript
+// tests possibles directement dans la console du navigateur
+12 % 3
+// affiche 0, pas de reste
+13 % 3
+// affiche 1 puisque 13 =  3 x 4 + 1
+```
 ### Chaînes de caractères (*string*)
 ### Booléens (*true* ou *false*)
 
@@ -60,4 +72,6 @@ console.log(a)
 #### undefined
 #### null
 #### infinite
+
+## Portée des variables
 

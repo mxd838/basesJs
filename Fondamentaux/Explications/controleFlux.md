@@ -2,8 +2,10 @@
 - Une structure de contrôle de flux, ou structure de contrôle conditionnel : 
     - évalue une valeur ou une condition qu'on lui envoie
     - permet de faire des traitements en fonction de cette évaluation
-- La structure if/else if/else sévalue une condition ou une valeur (un booléen) qui doit renvoyer *true* ou *false*
-- Le switch évalue les différentes valeurs possibles d'une variable
+- La structure **if/else if/else** :
+    -  évalue une condition ou une valeur (un booléen) qui doit renvoyer *true* ou *false*
+    - exécute au maximum un bloc d'instructions (celui pour lequel la condition indiquée est remplie) et zéro autrement
+- Le **switch** évalue les différentes valeurs possibles d'une variable
 ## If - Else if - Else
 ### Modèle
 ```javascript
@@ -23,7 +25,7 @@ if (age < 18){
 > Le bloc suivant, après le 'else if' est exécuté puisque la valeur de la variable remplit la condition :\
 > - 'age === 18' équivaut bien à 'true'\
 
-> Le dernier bloc est ignoré
+> Le dernier bloc, correspondant au 'else' est ignoré
 ### Explications complémentaires
 - La version minimale de cette structure conditionnelle est 
 ```javascript
@@ -55,6 +57,11 @@ switch(nombreDAssiettes){
         console.log("Ne venez pas manger ici, svp")
 }
 ```
+> *nombreDAssiettes* : la variable dont les valeurs sont examinées\
+> *case 1/2/3/etc* : les différentes valeurs envisagées de la variable, suivi des instructions qui s'exécutent si la variable a la valeur indiquée\
+> *default* : mot-clé suivi des instructions qui s'exécutent si aucune des valeurs précédentes n'a été rencontrée
+> *break* : mot-clé nécessaire pour la sortie du switch après l'exécution des instructions associées au case correspondant
+
 ## Les conditions
 
 **Principes généraux**

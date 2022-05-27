@@ -1,30 +1,36 @@
-// === If / else if / else ===
+// 1 - Trouver et afficher le plus grand des deux nombres suivants
+let nombreAleatoire1 = Math.floor(Math.random() * 1000)
+// (affecte un nombre aléatoire compris entre 0 et 999)
+let nombreAleatoire2 = Math.floor(Math.random() * 1000)
 
-// https://contactmentor.com/javascript-if-else-exercises-solutions/
 
-/*
-1. Check if a number is odd or even in JavaScript
-2. Check if input variable is a number or not
-3. Find the largest of two number
-4. Find the largest of three number
-5. Check if a triangle is equilateral, scalene, or isosceles
-6. Find the a number is present in given range
-7. Perform arithmetic operations on two numbers
-8. Find check if a year is leap year or not
-9. Find the grade for input marks
-10. Find number of days in a given month
 
-*/
+// 2 - Passer la variable suivante dans une structure conditionnelle 
+// --- afficher un message si le nombre est pair
+// --- afficher un message différent si le nombre est impair
+let nombreAleatoire = Math.floor(Math.random() * 1000)
 
-// === Switch ===
 
-/*
-You are given a variable, . Your task is to print:
+// 3 - Soit la variable suivante
+let jourAleatoire = Math.floor(Math.random() * 7)
+// -- écrire un programme qui renvoie le jour correspondant  au numéro
+// -- de 0 (lundi) à 6 (dimanche)
 
-- ONE, if num is equal to 1.
-- TWO, if num is equal to 2.
-- THREE, if num is equal to 3.
-- FOUR, if num is equal to 4.
 
-- PLEASE TRY AGAIN, if  is none of the above.
-*/
+// 4 - Soient les notes sur 20 suivantes
+const noteMaths = 12
+const noteFrancais = 15
+const noteSport = 11
+const noteArts = 3
+const noteCurling = 18
+// --- Convertir les notes de F à A en recourant aux critères suivants
+// --- > 80% : A
+// --- > 70% : B
+// --- > 60% : C
+// --- > 50% : D
+// --- > 40% : E
+// --- < 40% : F
+
+
+// 5 - Écrire une structure conditionnelle qui permet de vérifier si une année est bissextile ou non
+// (Google est ton ami pour trouver les conditions)
