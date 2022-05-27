@@ -29,6 +29,7 @@ const monString = 'violet' // chaîne de caractères : se place entre  des '' ou
 let reponse = 42
 let age
 ```
+> à droite du signe d'affectation, valeur ou expression renvoyant une valeur
 ### Const
 - il est obligatoire d'attribuer une valeur lors de la déclaration
 - pas de changement de la valeur par la suite
@@ -47,13 +48,16 @@ console.log(a)
 > 42
 
 ## Nommage des variables
+### Les caractères et mots interdits
+### Les conventions
 ## Valeurs
 ### Nombres
+### Opérateurs mathématiques
 ### Chaînes de caractères (*string*)
 ### Booléens (*true* ou *false*)
-#### Conditions
-- Une condition est une expression qui renvoie un booléen, c'est-à-dire vrai (*true*) ou faux (*false*)
-- Les conditions sont utilisées dans les boucles et les structures de contrôle de flux pour déterminer si le bloc d'instructions qui suit s'exécute (si la condition renvoie *true*) ou non (si la condition renvoie *false*)
-### Expressions
+
 ### Autres valeurs possibles
+#### undefined
+#### null
+#### infinite
 
