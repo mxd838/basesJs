@@ -10,13 +10,13 @@ const message = 'Hello World'
 // --- à chaque passage de boucle, afficher le nombre et indiquer s'il est pair ou impair
 
 
-// 4 - Écrire une boucle qui affiche  dans la console les nombres de 0 à 100 en prenant en compte les cas suivants :
+// 4 - Écrire une boucle qui affiche  dans la console les nombres de 1 à 100 en prenant en compte les cas suivants :
 // --- si le nombre est un multiple de 3, afficher 'fizz' à la place 
 // --- si le nombre est un multiple de 5, afficher 'buzz' 
 // --- si le nombres est un multiple de 3 et de 5, afficher 'fizzbuzz
 
 
-// 5 - Écrire une boucle qui va faire la somme de tous les multipes de 3 et 5
+// 5 - Écrire une boucle qui va faire la somme de tous les multipes de 3 et 5 de 1 à 100
 
 
 

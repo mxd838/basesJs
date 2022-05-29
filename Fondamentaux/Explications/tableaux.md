@@ -19,12 +19,14 @@ const tableauComplexe = [[1, 2, 3], {nom: 'Michel', prenom: 'Gerard'}, 3.98]
 ```javascript
 stringAndNumbersArray = [128, 'cheval', 3.49, true, 'lampadaire', 38, 'robert', false]
 ```
-> index 0: 128
-> index 1 : 'cheval'
-> index 2 : 3.49
+> index 0: 128\
+> index 1 : 'cheval'\
+> index 2 : 3.49\
 > index 3 : 'lampadaire'
+
 - Pour pouvoir afficher une valeur en particulier, on utilise la syntaxe suivante :
 > nomDuTableau[indice]
+
 - Ainsi pour afficher dans la console des valeurs du tableau *stringAndNumbersArray* :
 ```javascript
 console.log(stringAndNumbersArray[0]) // affiche 128
@@ -51,18 +53,13 @@ while (i < autreTableau.length){
     i++
 }
 ```
-> Attention à bien utiliser  < et non <= 
-> Cela renverrait une erreur puisque la longueur d'un tableau est toujours supérieure de 1 à l'indice de sa dernière valeur
-> Dans l'exemple, le tableau possède 4 éléments, indexés de 0 à 3
-> Si i arrive à  4, Javascript tente de trouver une valeur indexée à 4 donc en dehors du tableau (spoiler: ça va pas marcher)
+> Attention à bien utiliser  < et non <=\
+> Cela renverrait une erreur puisque la longueur d'un tableau est toujours supérieure de 1 à l'indice de sa dernière valeur\
+> Dans l'exemple, le tableau possède 4 éléments, indexés de 0 à 3\
+> Si i arrive à  4, Javascript tente de trouver une valeur indexée à 4 donc en dehors du tableau (cela va donc renvoyer une erreur)\
 
 
-**Exercice 1**
-- Étant donné le tableau suivant :
-```javascript
-const nvTableau = [13, 454, 3.38, 4803, 1504, 54, 3.45, 13345.599]
-```
-- Utilise une boucle pour calculer la somme des valeurs
-### Méthodes de tableau
+### Modifier un tableau
+- directement à partir de son indice
 - JavaScript offre  des méthodes (càd des fonctions intégrées à un type complexe, ici les tableaux) qui permettent de les manipuler
 #### Ajouter un élément à la fin du tableau : .push()
