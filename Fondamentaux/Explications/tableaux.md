@@ -14,6 +14,7 @@ const tableauComplexe = [[1, 2, 3], {nom: 'Michel', prenom: 'Gerard'}, 3.98]
 - Il n'y a pas de limite au nombre d'éléments dans un tableau ou au nombre de niveaux d'imbrication
 ## Accès aux éléments d'un tableau
 ### Les indices (*index*)
+#### Tableaux simples
 - À chaque valeur du tableau est associée un indice (ou *index*) qui permet l'accès à cette valeur
 - L'index démarre à zéro. Ainsi :
 ```javascript
@@ -22,7 +23,7 @@ stringAndNumbersArray = [128, 'cheval', 3.49, true, 'lampadaire', 38, 'robert', 
 > index 0: 128\
 > index 1 : 'cheval'\
 > index 2 : 3.49\
-> index 3 : 'lampadaire'
+> index 3 : true
 
 - Pour pouvoir afficher une valeur en particulier, on utilise la syntaxe suivante :
 > nomDuTableau[indice]
@@ -36,6 +37,9 @@ console.log(stringAndNumbersArray[4]) // affiche 38
 ```javascript
 const charmantPrenom = stringAndNumbersArray[6]
 ```
+#### Tableau dans un tableau dans ...
+- On 
+
 ### Propriété *.length*
 - Un tableau intègre une propriété .length qui permet d'obtenir sa longueur
 ```javascript
@@ -59,7 +63,14 @@ while (i < autreTableau.length){
 > Si i arrive à  4, Javascript tente de trouver une valeur indexée à 4 donc en dehors du tableau (cela va donc renvoyer une erreur)\
 
 
-### Modifier un tableau
+### Manipuler un tableau
+#### Changer une valeur dans un tableau à partir de son index
+```javascript
+const monTableau = ['abricot','banane','goyave']
+console.log(monTableau[0]) // 'abricot'
+monTableau[0] = 'kaki'
+console.log(monTableau[0]) // 'kaki'
+```
 - directement à partir de son indice
 - JavaScript offre  des méthodes (càd des fonctions intégrées à un type complexe, ici les tableaux) qui permettent de les manipuler
 #### Ajouter un élément à la fin du tableau : .push()

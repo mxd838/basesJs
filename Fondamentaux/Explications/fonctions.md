@@ -1,6 +1,7 @@
 ## Présentation
 - Une fonction est  un ensemble d'instructions (délimité par des accolades) effectuant une tâche ou calculant une valeur. 
 - Afin d'utiliser une fonction, il est nécessaire de l'avoir auparavant définie.
+- Elle permet d'isoler des portions de code pour le rendre plus facile à concevoir, lire, débugger, etc.
 ## Modèles
 **Syntaxe de la définition d'une fonction**
 - Deux syntaxes sont possibles pour définir une fonction : la forme classique ou la *arrow function* (fonction fléchée), apparue dans une version plus récente de JavaScript
@@ -60,4 +61,5 @@ const direBonjour = (prenom) => {
 const salutation = direBonjour(joliPrenom)
 console.log(salutation)
 ```
+
 

@@ -97,21 +97,86 @@ somme-- // cf la partie 'Avancé'
 ### Chaînes de caractères (*string*)
 #### Présentation
 - les *string* sont des chaînes de caractères, identifiables aux guillemets ou apostrophes qui les entourent ("" ou '')
-- L'utilisation des guillemets ou des apostrophes n'a pas d'importance, tant que le symbole ouvrant la chaîne soit le même que celui le fermant
+- L'utilisation des guillemets ou des apostrophes n'a pas d'importance, tant que le symbole ouvrant la chaîne soit le même que celui la fermant
 - Si on souhaite utiliser des apostrophes dans la chaîne, on utilisera des guillemets pour la délimiter, et inversement
 ```javascript
 const monMessage = "J'ai une Fiat 500 à vendre. Ne ratez pas l'occas'"
 ```
 #### Concaténation de chaînes de caractères
-- longueur d'une chaîne de caractère
-- accès à un élément d'une chaîne de caractères
-- concaténation de chaînes de caractères
-### Booléens (*true* ou *false*)
+- Cela consiste à fusionner deux chaînes de caractères pour n'en faire qu'une
+```javascript
+const suiteMessage = ". Ou pas."
+const messageComplet = monMessage + suiteMessage + "Suite de mots pour l'exemple. Je manque d'inspiration."
+console.log(messageComplet)
+```
+- Le typage dynamique de JavaScript permet de concaténer une chaîne de caractères avec un nombre
+```javascript
+const nombreDePetitsCochons = 3
+const phrase = "Nombre de petits cochons : " + nombreDePetitsCochons
+console.log(phrase)
+console.log(typeof phrase )
+```
+#### Obtenir la longueur d'une chaîne de caractères
+```javascript
+// maVariable.length ou "chaineBrute".length
+console.log(phrase.length)
+```
+#### Accéder à un élément d'une chaîne de caractères
+- À la manière d'un tableau, on peut accéder à un élément de la chaîne en indiquant son index
+```javascript
+console.log(phrase[0]) // 'N'
+console.log(phrase[phrase.length - 1]) // Dernier caractère : '3'
+```
+- Toutefois, contrairement à un tableau, on ne peut pas modifier un élément de la chaîne directement (*cf Bases - Tableaux et JavaScript Avancé*)
 
-### Autres valeurs possibles
-#### undefined
-#### null
-#### infinite
+#### Méthodes de chaînes de caractères
+- Il existe toutes sortes de méthodes permettant de manipuler les chaînes de caractères ([à voir ici, par exemple](https://www.w3schools.com/js/js_string_methods.asp))
+- En guise d'exemple, pour extraire une partie d'une chaîne de caractères :
+```javascript
+const boutDePhrase = phrase.substring(10, 15)  
+console.log(boutDePhrase) // petit
+```
+### Booléens (*true* ou *false*)
+- Un booléen n'a que deux valeurs possibles : *true* ou *false*
+- Les conditions qui sont utilisées dans les structures de contrôle de flux et les boucles renvoient un booléen
+- Si la condition renvoie *true*, le bloc d'instructions correspondant s'exécute
+- Si elle renvoie *false*, le bloc ne s'exécute pas
+- *cf les explications sur les boucles et le contrôle de flux pour des exemples*
+
+### Autres types de valeurs possibles
+- L'idée ici est de présenter quelques-uns des types de valeur possibles qu'on retrouvera le plus souvent dans des erreurs lorsqu'on débute
+- Il est également possible de les manipuler mais leur utilisation est relativement limitée, en particulier dans le cadre de ces explications
+
+**undefined**
+- On la retrouve pour une variable auquelle aucune valeur n'a été affectée
+```javascript
+let a
+console.log(a) // undefined
+```
+
+**NULL**
+- Même sens que pour undefined, la différence tient à l'origine du type (*cf Avancé*)
+
+**Infinity**
+- Ce type peut se rencontrer lorsqu'on essaie de diviser par zéro
+
+**NaN**
+- 'Not a Number' : on le rencontre lorsqu'on manipule des nombres (via une fonction, une méthode mathématique) et que le résultat ne peut pas renvoyer un nombre
+```javascript
+// En essayant d'obtenir la racine carrée de -37
+ Math. sqrt(-37) // renvoie NaN
+ ```
 
 ## Portée des variables
+- Les variables définies à l'intérieur de blocs d'instructions (*if*, *while*, fonctions, etc) ne sont pas accessibles en dehors de ces blocs
+```javascript
+for(let i = 0; i < 3; i++){
+    const bou = 'bouh'
+    console.log(bou)
+}
+console.log(bou) // -> renvoie une erreur
+```
+- Il y a des subtilités à cette règle, qui ne me paraissent pas essentielles à ce stade (*cf Avancé*)
+
+
 

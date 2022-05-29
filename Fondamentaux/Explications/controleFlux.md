@@ -140,3 +140,5 @@ if (!mineur){
 - L'opérateur ! renvoie l'inverse du booléen auquel il est associé:
     - si bool === true alors !bool renvoie *false*
     - si bool === false alors !bool renvoie *true*
+
+

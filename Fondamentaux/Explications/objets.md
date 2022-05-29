@@ -6,6 +6,9 @@
 ```javascript
 // Création d'un objet vide
 const monObjet = {}
+```
+> {} :
+```javascript
 // Création d'un objet déjà rempli
 const monAutreObjet = {nom: 'Robert', prenom: 'Gerard'}
 // On le verra souvent présenté de la façon suivante :
@@ -16,9 +19,13 @@ const idJoueur1 = {
 }
 ```
 ## Accès aux valeurs d'un objet
+
 ```javascript
 console.log(idJoueur1.pseudo)
 // ou
 console.log(idJoueur1['pseudo'])
 ```
+## Modification d'une valeur
+## Ajout d'une valeur à un objet existant
+## Méthodes courantes associées aux objets
 
